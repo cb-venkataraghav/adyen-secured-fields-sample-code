@@ -169,7 +169,12 @@ $(document).ready(function() {
             onError : errorFn
         }
 
-        var res = chcktPay(initPayConfig);
+        Console.log(initPayConfig);
+        Console.log($("#encrypted-hostedCardNumberField").val());
+        Console.log($("#encrypted-month").val());
+        Console.log($("#encrypted-year").val());
+        Console.log($("#encrypted-hostedSecurityCodeField").val());            
+        // var res = chcktPay(initPayConfig);
 
         //--------- end SUBMIT PAYMENT INITIATION REQUEST -----------------
     }
